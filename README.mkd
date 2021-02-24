@@ -1,0 +1,14 @@
+# Caesar's Cipher
+## -- The Odin Project
+
+Using Ruby, create a method named caesar_cipher that takes as input a string and a number to shift by.
+
+e.g. `caesar_cipher("What a string!", 5) => "Bmfy f xywnsl!"`
+
+### Requirements
+
+- Take both positive and negative numbers for shifting
+- Maintain case
+- Maintain all non alphabetic characters
+- Wrap alphabet when passing upper or lower bounds
+
