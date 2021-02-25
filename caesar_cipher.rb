@@ -1,19 +1,10 @@
 def caesar_cipher(phrase, shift=0)
-  # split string to characters
-  # map through each character
-  #   lowercase
-  #   uppercase
-  # reduce array back down to string 
-  # return
-  
   if shift % 26 == 0 
     return phrase
   end
-
   cipher = phrase.split('').map do |char|
     shift_char(char, shift)
   end
-
   cipher.reduce('') {|word, char| word.concat(char)}
 end
 
